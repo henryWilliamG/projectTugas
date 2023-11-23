@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    min-height: 3000px;
 }
 
 /* Navbar */
@@ -15,7 +16,16 @@ body {
 }
 
 /* HomePage */
+
+
 .homeTitle {
     font-weight: bold;
     color: rgb(154, 183, 255);
+    font-size: 45px;
+}
+
+.imageContainerHome img {
+    width: auto;
+    height: 80vh;
+    box-shadow: 3px 3px 10px rgb(126, 126, 126);
 }
