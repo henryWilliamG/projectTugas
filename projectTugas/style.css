@@ -52,3 +52,16 @@ body {
 .infoHomePage {
   font-size: 1.1rem;
 }
+/* about */
+.carousel-container{
+  margin-top: 250px;
+}
+.main-aboutcontainer{
+  bottom: 40vh;
+  left: 60%;
+  font-size: larger;
+  color: black;
+  justify-content: center;
+  text-align: start;
+  width: 550px;
+}
