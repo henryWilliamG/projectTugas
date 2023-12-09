@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 3000px;
+  font-size: 16px;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0px 3px 8px rgb(174, 174, 174);
+  background-color: white;
+}
+
+.imageNavbar {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* HomePage */
+.homeMainContainer {
+  position: relative;
+  height: 80vh;
+  width: 100vw;
+  padding-top: 10vh;
+}
+
+.homeMainContainer button {
+  background-color: #74cdfa;
+  font-weight: bold;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.1s ease-out;
+  color: white;
+}
+
+.homeMainContainer button:hover {
+  transform: scale(1.05);
+}
+
+.homeTitle {
+  font-weight: bold;
+  font-size: 50px;
+  color: #012111;
+}
+
+.imageContainerHome img {
+  object-fit: contain;
+  box-shadow: 3px 3px 10px rgb(126, 126, 126);
+}
+
+.infoHomePage {
+  font-size: 1.1rem;
+}
+
+/* about */
+.carousel-container {
+  margin-top: 200px;
+}
+
+.main-about-container {
+  bottom: 10%;
+  left: 60%;
+  color: black;
+  justify-content: center;
+  text-align: start;
+  flex-wrap: wrap;
+}
+
+.main-about-container h1,
+p {
+  color: #012111;
+}
+
+.main-about-container h1 {
+  font-weight: bold;
+}
+
+.main-about-container p {
+  font-size: 0.9rem;
+}
+
+.image-container {
+  height: 70vh;
+  filter: brightness(86%);
+}
+/* End of About */
+
+/* Section2-container */
+.section2-container {
+  margin-top: 100px;
+  border-bottom: 2px solid rgb(190, 190, 190);
+  padding-bottom: 50px;
+}
+
+.section2-container h5 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+figure img {
+  width: 700px;
+  height: auto;
+  object-fit: contain;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.section2-content {
+  width: 40%;
+}
+
+.section2-content p {
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+}
+
+.section2-text {
+  border-left: 2px solid rgb(190, 190, 190);
+  padding: 0px 20px 0px 28px;
+  margin-top: 1em;
+}
+/* End of Sec2 */
+
+/* card */
+.main-row {
+  overflow: hidden;
+}
+
+.card-container {
+  margin-top: 80px;
+}
+
+.card-container h2 {
+  text-decoration: 3px underline #4281f9;
+  text-transform: uppercase;
+  text-underline-offset: 0.5rem;
+  color: #012111;
+}
+
+.card {
+  box-shadow: 7px 7px 4px rgb(162, 162, 162);
+}
+/* End of Card */
+
+/* Footer */
+.footer-container {
+  height: 40vh;
+  background-color: rgb(247, 247, 247);
+}
+
+.company-profile {
+  width: 25%;
+}
+
+.company-profile img {
+  width: 70px;
+}
+
+.company-name {
+  display: inline;
+}
+
+.company-profile p {
+  font-size: 0.8rem;
+  padding-top: 1em;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.discovery {
+  padding-bottom: 40px;
+}
+
+.discovery a {
+  line-height: 2rem;
+  display: block;
+  text-decoration: none;
+  color: rgb(65, 65, 65);
+}
+
+.collaborative-minds {
+  padding-bottom: 10px;
+}
+
+.collaborative-minds li {
+  list-style: none;
+  line-height: 2rem;
+  font-size: 0.9rem;
+}
+
+.icon-container img {
+  cursor: pointer;
+}
+/* Colors */
+/* --text: #012111;
+--background: #f7fffb;
+--primary: #10f78c;
+--secondary: #74cdfa;
+--accent: #4281f9; */
