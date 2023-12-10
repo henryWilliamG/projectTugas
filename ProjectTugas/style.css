@@ -39,7 +39,7 @@ body {
   height: 50px;
   border-radius: 10px;
   border: none;
-  transition: 0.1s ease-out;
+  transition: 0.1 ease-out;
   color: white;
 }
 
@@ -75,6 +75,10 @@ body {
   text-decoration: none;
   color: white;
 }
+
+.homeColumn1 p {
+  margin: 0 4px;
+}
 /* End of Homepage */
 
 /* about */
@@ -105,7 +109,7 @@ p {
 
 .image-container {
   height: 70vh;
-  filter: brightness(86%);
+  filter: brightness(76%);
 }
 /* End of About */
 
