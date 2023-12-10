@@ -180,8 +180,13 @@ figure {
 
 /* Footer */
 .footer-container {
-  height: 40vh;
+  height: auto;
+  padding-bottom: 30px;
   background-color: rgb(247, 247, 247);
+}
+
+.kidney {
+  transform: scale(0.7);
 }
 
 .company-profile {
@@ -220,7 +225,7 @@ figure {
 }
 
 .collaborative-minds {
-  padding-bottom: 63px;
+  padding-bottom: 38px;
 }
 
 .collaborative-minds li {
