@@ -1,0 +1,117 @@
+@media (max-width: 1606px) {
+  .main-about-container {
+    left: 48%;
+  }
+
+  .row-home {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 1399px) {
+  .section2-container {
+    flex-direction: column;
+  }
+
+  .section2-content {
+    width: 100%;
+  }
+
+  figure {
+    order: -1;
+    padding-bottom: 50px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .main-about-container {
+    transform: scale(0.8);
+    left: 55%;
+    bottom: 0%;
+  }
+
+  .row-home {
+    transform: scale(0.7);
+  }
+
+  .home-img {
+    transform: scale(0.8);
+  }
+
+  .discovery {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .homeColumn1 {
+    display: none;
+  }
+
+  .imageContainerHome {
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-img {
+    transform: scale(1);
+  }
+
+  .chart {
+    transform: scale(0.7);
+  }
+
+  .carousel-container {
+    margin-top: 30px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  .discovery,
+  .collaborative-minds {
+    padding: 20px 0px 20px 10px;
+  }
+
+  .company-content {
+    order: -1;
+  }
+
+  .kidney {
+    transform: scale(0.7);
+  }
+
+  .footer-container {
+    height: auto;
+  }
+}
+
+/* Tablets */
+@media (max-width: 1023px) {
+  .main-about-container {
+    visibility: hidden;
+  }
+
+  .media {
+    display: block;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 767px) {
+  .section2-container {
+    margin-top: 50px;
+  }
+
+  .image-container {
+    height: auto;
+  }
+
+  figure {
+    padding-bottom: 10px;
+  }
+}

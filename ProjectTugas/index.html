@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
     <!-- Link Style CSS -->
     <link rel="stylesheet" href="style.css" />
+    <!-- link Media Queries -->
+    <link rel="stylesheet" href="media.css" />
   </head>
   <body>
     <!-- Navbar -->
@@ -44,17 +46,17 @@
     <!-- End of Navbar -->
 
     <!-- HomePage -->
-    <div class="homeMainContainer" id="home">
-      <div class="row justify-content-evenly align-items-center">
+    <div class="container d-flex align-items-center" id="home">
+      <div class="row justify-content-evenly align-items-center row-home">
         <div class="col-5 homeColumn1 ps-5 pt-5">
           <h1 class="homeTitle">Gizi Pada Penyakit Ginjal Kronis</h1>
           <p style="margin: 5px 4px" class="infoHomePage">Penulis | Susetyowati , Farah Faza , Izza</p>
           <p style="margin: 0 4px" class="infoHomePage">Penerbit | Gadjah Mada University Press</p>
-          <button type="button" class="btn-lg mt-3" href="#">View Content</button>
+          <button type="button" class="btn-lg mt-3"><a href="#carouselExampleCaptions">View Content</a></button>
         </div>
 
         <div class="col-5 imageContainerHome pt-5">
-          <img src="images/Gizi-pada-Penyakit-Ginjal-Kronis.png" alt="" />
+          <img src="images/Gizi-pada-Penyakit-Ginjal-Kronis.png" alt="home-page-image" class="home-img" />
         </div>
       </div>
     </div>
@@ -65,7 +67,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active image-container">
           <img src="images/makanansehat.jpg" class="d-block w-100 about-img" alt="makanansehat" />
-          <div class="carousel-caption d-none d-md-block main-about-container">
+          <div class="carousel-caption d-md-block main-about-container">
             <h1>Content</h1>
             <p>
               Penyakit ginjal kronis (PGK) merupakan diagnosis penyakit utama pasien hemodialisis baru di Indonesia dengan persentase terbesar, yaitu 83% dengan jumlah pasien aktif yang menjalani terapi hemodialisis terus meningkat dari
@@ -80,6 +82,17 @@
     </div>
     <!-- End of Section -->
 
+    <!-- Media  Query -->
+    <div class="container media">
+      <h2 style="font-weight: bold">Content</h2>
+      <p style="font-size: 0.8rem">
+        Penyakit ginjal kronis (PGK) merupakan diagnosis penyakit utama pasien hemodialisis baru di Indonesia dengan persentase terbesar, yaitu 83% dengan jumlah pasien aktif yang menjalani terapi hemodialisis terus meningkat dari tahun
+        2007 hingga 2012. Penyakit ginjal kronis dapat dipengaruhi oleh beberapa faktor, di antaranya obesitas, diabetes, hipertensi, usia lanjut, glomerulonefritis, batu ginjal, infeksi saluran kencing, penyakit kardiovaskuler, dan riwayat
+        keluarga.<br /><br />
+        Buku Gizi pada Penyakit Ginjal Kronis menyajikan skrining gizi dan tahapan PAGT pada pasien PGK disertai penelitian-penelitian yang telah dilakukan, dengan data pendukung dari berbagai literatur. Buku ini ditujukan bagi mahasiswa
+        Gizi atau ahli gizi yang bekerja di rumah sakit atau institusi kesehatan lain.
+      </p>
+    </div>
     <!-- Section 2 -->
     <div class="container section2-container d-flex">
       <div class="section2-content">
@@ -114,7 +127,7 @@
       </div>
 
       <figure>
-        <img src="images/chart.jpeg" alt="image" />
+        <img src="images/chart.jpeg" alt="image" class="chart" />
       </figure>
     </div>
     <!-- End of Section 2 -->
@@ -163,47 +176,50 @@
     <!-- End of Card -->
 
     <!-- Footer -->
-    <div class="footer-container d-flex justify-content-center align-items-center" id="footer">
-      <div class="company-profile d-flex pe-5">
-        <div>
-          <img src="images/kidneys.png" alt="icon" />
-        </div>
+    <div class="footer-container" id="footer">
+      <div class="container d-flex pt-5 pb-4 footer-content">
+        <div class="company-profile d-flex pe-5">
+          <div>
+            <img src="images/kidneys.png" alt="icon" class="kidney" />
+          </div>
 
-        <div class="pt-3">
-          <h3 class="company-name ps-2" style="font-weight: bold">MedScope</h3>
+          <div class="pt-3 company-content">
+            <h3 class="company-name ps-2" style="font-weight: bold">MedScope</h3>
 
-          <p class="ps-2" style="color: rgb(65, 65, 65)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, temporibus voluptate numquam quasi perspiciatis, sed, aliquid debitis vero nemo blanditiis expedita.</p>
+            <p class="ps-2" style="color: rgb(65, 65, 65)">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, temporibus voluptate numquam quasi perspiciatis, sed, aliquid debitis vero nemo blanditiis expedita.</p>
 
-          <div class="icon-container d-flex w-100 pt-4">
-            <a href="https://www.facebook.com/" target="_blank">
-              <img src="images/facebook (1).png" alt="facebook-icon" class="icons" />
-            </a>
+            <div class="icon-container d-flex w-100 pt-4">
+              <a href="https://www.facebook.com/" target="_blank">
+                <img src="images/facebook (1).png" alt="facebook-icon" class="icons" />
+              </a>
 
-            <a href="https://www.instagram.com/" target="_blank">
-              <img src="images/instagram.png" alt="instagram-icon" class="icons" />
-            </a>
-            <a href="https://twitter.com/" target="_blank">
-              <img src="images/twitter.png" alt="twitter-icon" class="icons" />
-            </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <img src="images/instagram.png" alt="instagram-icon" class="icons" />
+              </a>
+
+              <a href="https://twitter.com/" target="_blank">
+                <img src="images/twitter.png" alt="twitter-icon" class="icons" />
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="discovery pe-5">
-        <h5 style="font-weight: bold">Discover</h5>
+        <div class="discovery">
+          <h5 style="font-weight: bold">Discover</h5>
 
-        <a href="">Explore Categories</a>
-        <a href="">Recommended Reads</a>
-        <a href="">Related Links</a>
-      </div>
+          <a href="">Explore Categories</a>
+          <a href="">Recommended Reads</a>
+          <a href="">Related Links</a>
+        </div>
 
-      <div class="collaborative-minds">
-        <h5 style="font-weight: bold">Collaborative-Minds</h5>
+        <div class="collaborative-minds">
+          <h5 style="font-weight: bold">Collaborative-Minds</h5>
 
-        <li>Henry William Gunadi</li>
-        <li>Fachrizqy Utomo</li>
-        <li>Rial</li>
-        <li>Muhammad Syehan Alwafa</li>
+          <li>Henry William Gunadi</li>
+          <li>Fachrizqy Utomo</li>
+          <li>Rial</li>
+          <li>Muhammad Syehan Alwafa</li>
+        </div>
       </div>
     </div>
 
